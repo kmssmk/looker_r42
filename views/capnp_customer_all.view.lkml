@@ -1112,17 +1112,3 @@ view: capnp_customer_all {
     sql: ${distance} ;;
   }
 }
-
-view: all_customers__fleet_id {
-  dimension: all_customers__fleet_id {
-    type: number
-    sql: all_customers__fleet_id ;;
-  }
-}
-
-view: all_customers__secondary_location_id {
-  dimension: all_customers__secondary_location_id {
-    type: number
-    sql: all_customers__secondary_location_id ;;
-  }
-}
