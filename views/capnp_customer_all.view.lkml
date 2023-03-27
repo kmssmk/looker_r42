@@ -1,4 +1,4 @@
-view: all_customers {
+view: capnp_customer_all {
   sql_table_name: {{ _user_attributes['schema'] }}.{{ _user_attributes['schema'] }}
     ;;
 
